@@ -1,0 +1,243 @@
+::selection {
+    color: #ffffff;
+    background: #252424;
+}
+
+::-moz-selection {
+    color: #ffffff;
+    background: #252424;
+}
+
+.site-color {
+    color: #000000 !important;
+}
+
+a:hover,
+a:focus,
+a.link,
+.link {
+    color: #000000;
+}
+
+.search-full,
+.search-input {
+    background: #252424;
+}
+
+.search-close {
+    color: #252424;
+}
+
+.searchInputBox .search-btn {
+    color: #ffffff;
+}
+
+.btn-primary,
+.product:hover .add-fav:hover,
+.product:hover .add-fav.active {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+    background-color: #b8b8b8;
+    border-color: #b8b8b8;
+    color: #ffffff;
+}
+
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #b8b8b8;
+    border-color: #b8b8b8;
+    color: #ffffff;
+    background: #000000;
+}
+
+.search-box:hover .form-control {
+    background: #000000;
+}
+
+.search-box:hover .btn-nobg {
+    color: #000000;
+}
+
+.mCS-dark-2 > .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    background-color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000) !important;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000, endColorstr=#80000000) !important;
+}
+
+.action-control a:hover,
+.action-control a.active {
+    color: #ffffff;
+    background: #fddd29;
+}
+
+/*.product:hover,
+.featuredImgLook2 .inner:hover {
+    border: 1px solid #000000;
+}*/
+
+.subCategoryList .thumbnail:hover {
+    border: 1px solid #000000;
+}
+
+#pager a.cycle-pager-active {
+    background-color: #252424 !important;
+    background-color: rgba(37, 36, 36, 0.7) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b3252424, endColorstr=#b3252424) !important;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#b3252424, endColorstr=#b3252424) !important;
+}
+
+.pager2 a {
+    border: 1px solid #000000;
+}
+
+.pager2 a.selected {
+    background: #000000;
+}
+
+.btn-site,
+.newsLatterBox .btn {
+    background: #000000;
+}
+
+.btn-discover:hover,
+.btn-site:hover,
+.newsLatterBox .btn:hover {
+    background: #353535;
+}
+
+.full {
+    width: 100%;
+}
+
+.footer a:hover {
+    color: #000000;
+}
+
+.modal-header {
+    background: #3451a2;
+}
+
+.form-control:focus {
+    border-color: #000000;
+}
+
+.new-product {
+    background-color: #000000 !important;
+    background-color: rgba(0, 0, 0, 0.95) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2000000, endColorstr=#f2000000) !important;
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#f2000000, endColorstr=#f2000000) !important;
+}
+
+.nav.tree > li.active,
+.nav.tree > li > a:hover,
+.nav.tree > li > a:focus,
+.nav.tree > li:hover > a {
+    background: none;
+    color: #2a2a2a;
+}
+
+.nav.tree .open-tree > a,
+.nav.tree .open-tree > a:hover,
+.nav.tree .open-tree > a:focus {
+    background: none;
+    font-weight: bold;
+    color: #2a2a2a;
+}
+
+.panel-default > .panel-heading {
+    border-top: 4px solid #000000;
+}
+
+.nav-tabs {
+    border-bottom: 3px solid #bfc9ca;
+}
+
+.tabs-left .nav-tabs {
+    border-bottom: none;
+    float: left;
+    display: inline-block;
+}
+
+.tabs-left .tab-content {
+    border-left: 1px solid #303030;
+    margin-left: 20px;
+    padding-left: 20px;
+    float: left;
+    display: inline-block;
+    width: 77%;
+}
+
+.tabs-left .nav-tabs > li.active > a,
+.tabs-left .nav-tabs > li.active > a:hover,
+.tabs-left .nav-tabs > li.active > a:focus,
+.tabs-left .nav-tabs > li:hover > a {
+    background: #303030;
+    font-weight: normal;
+}
+
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus,
+.nav-tabs > li:hover > a {
+    background: #bfc9ca;
+}
+
+.socialIcon a:hover {
+    background: #000000;
+}
+
+.cart-actions button,
+.cart-actions .wishlist {
+    background: none repeat scroll 0 0 #3451a2;
+    border: 2px solid #3451a2;
+}
+
+.cart-actions button:hover {
+    background: #fddd29;
+    color: #000;
+    border: solid 2px #fddd29;
+}
+
+.sp-thumbs a:hover,
+.sp-thumbs a:active,
+.sp-current,
+sp-current:visited {
+    border: 1px solid #000000 !important;
+}
+
+.promo-1 {
+    background: none repeat scroll 0 0 #353535;
+}
+
+#pager2 span.cycle-pager-active {
+    background: #000000 !important;
+}
+
+#pager2 span {
+    border: 1px solid #000000;
+}
+
+.orderStep li.active a {
+    background: #000000;
+}
+
+.orderStep li.active a:after {
+    border-top-color: #000000 !important;
+}
+
+.orderStep li a {
+    background: #b8b8b8;
+}

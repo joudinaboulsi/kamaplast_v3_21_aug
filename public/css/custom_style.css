@@ -1,0 +1,188 @@
+.modal-backdrop
+{
+	z-index:1040 !important;
+}
+
+.signUpContent .modal-dialog
+{
+	margin-top:100px;
+}
+
+/* The checklabel */
+.checklabel {
+  display: block;
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checklabel input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkboxmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checklabel:hover input ~ .checkboxmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checklabel input:checked ~ .checkboxmark {
+  background-color: #3451a2;
+}
+
+/* Create the checkboxmark/indicator (hidden when not checked) */
+.checkboxmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkboxmark when checked */
+.checklabel input:checked ~ .checkboxmark:after {
+  display: block;
+}
+
+/* Style the checkboxmark/indicator */
+.checklabel .checkboxmark:after {
+  left: 8px;
+  top: 5px;
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.qty_input::-webkit-inner-spin-button, 
+.qty_input::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.qty_input
+{
+	width:40px;
+	text-align:center;
+}
+
+.cart_btn
+{
+	font-size:17px;
+	margin:0px 5px;
+	cursor:pointer;
+}
+
+.cart_btn:hover
+{
+	opacity:0.85;
+}
+
+.qty_input_2::-webkit-inner-spin-button, 
+.qty_input_2::-webkit-outer-spin-button { 
+  -webkit-appearance: none !important; 
+  margin: 0; 
+}
+
+.label_color
+{
+  color:white;
+}
+
+.old-price
+{
+  font-size:13px; 
+}
+
+
+.nav-stacked > li .active_a, .nav.tree .open-tree > .active_a
+{
+  font-weight:900 !important;
+}
+
+.img_menu
+{
+  width:25% !important; 
+  display:inline-block !important; 
+  border-radius:10px !important;
+  padding:0px!important;
+  margin-right:10px !important;
+  margin-bottom:20px !important;
+}
+
+.categ_a
+{
+  position:relative;
+  top:-8px;
+}
+
+
+.catTopBar .f-right p a:hover 
+{
+  color:black;
+}
+
+
+.catTopBar .f-right p a.active, .shrtByP .active {
+
+color:black !important;
+font-weight: bold;
+}
+
+
+.empty_cart_img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.empty_cart_link
+{
+  text-decoration:underline;
+}
+
+.modal-header h2, .modal-header h3
+{
+  width:97%;
+}
+
+
+ .modal-header .close:hover
+{
+  color:white;
+}   }
+
+.odm_text h4
+{
+  font-weight: bold;
+  padding-bottom:0px;
+}
+
+@media (max-width: 767px) {
+ .filterColumn {
+   margin-left: 0 !important;
+   margin-bottom: 20px;
+ }
+}

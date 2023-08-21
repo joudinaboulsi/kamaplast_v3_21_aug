@@ -1,0 +1,177 @@
+/* ================== Users ==================== */
+
+.delete_form
+{
+		display:inline;
+}
+
+.delete_post
+{
+	border:none;
+	background:transparent;
+	color:#337ab7;
+	cursor:pointer;
+}
+
+.popover { z-index: 10000; }
+
+
+/* ================== Pages ==================== */
+.img_datatable, .img_gp
+{
+	height:40px;
+}
+
+.img_datatable:hover
+{
+	cursor:pointer;
+	opacity:0.85;
+}
+
+.edit_btn
+{
+	border:none; 
+	color:#1c84c6; 
+	background:transparent;
+}
+
+.edit_btn:hover
+{
+	color:#1c84c6;
+	opacity:0.85;
+}
+
+table td
+{
+	vertical-align: middle !important;
+}
+
+
+.blocked_input
+{
+	background-color:#e0e0e0 !important;
+}
+
+.today_activity
+{
+	background-color:#d2ffd2 !important;
+}
+
+.date_input
+{
+	/*width:65% !important;*/
+	padding-left:2% !important;
+}
+
+.note-editor
+{
+	min-height:120px !important;
+}
+
+.note-editing-area
+{
+	min-height:120px !important;
+}
+
+.margin-top{
+	margin-top: 10px;
+}
+
+.padding-bottom{
+	padding-bottom: 70px;
+}
+
+.chosen-container-multi{
+	width:344px !important;
+}
+
+.ibox {
+	margin-bottom:0px !important;
+}
+
+.ibox-title{
+	border-style:solid; 
+	border-width:3px 0px 1px 0px;
+}
+
+label small i {
+    font-weight: normal;
+}
+
+.green{
+	color: #1bb394;
+}
+
+.red_star{
+	color: red;
+}
+
+.save_btn {
+    padding-left: 33px;
+    padding-right: 33px;
+}
+
+.b_radius {
+	border-radius: 18px;
+}
+
+.big_checkbox
+{
+	width:20px !important;
+	height:20px !important;
+	cursor:pointer;
+}
+
+.big-icon
+{
+	color: #1bb394;
+    font-size: 6em !important;
+}
+
+.big-icon:hover
+{
+	opacity: 0.7;
+}
+
+.big_radio
+{
+	width:20px !important;
+	height:20px !important;
+	cursor:pointer;
+	position:relative;
+	top:4px;
+	margin-right:8px !important;
+}
+
+.pointer
+{
+	cursor:pointer;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable 
+{
+	min-height:120px;
+}
+
+.close_error_modal
+{
+	margin-right: 6px;
+    margin-top: 2px;
+}
+
+
+
+.td_right_align
+{
+	text-align:right;
+}
+
+.totals_label_td
+{
+	width:85%;
+}
+
+.label_color
+{
+	color:white;
+}
